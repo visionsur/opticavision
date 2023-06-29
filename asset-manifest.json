@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/visionsur/opticavision.git/static/css/main.4fe9a03e.css",
+    "main.js": "/visionsur/opticavision.git/static/js/main.cdd06114.js",
+    "static/media/LENTES_DE_CONTACTO.png": "/visionsur/opticavision.git/static/media/LENTES_DE_CONTACTO.1fe8ff8db2e4b39bb370.png",
+    "static/media/rayband.png": "/visionsur/opticavision.git/static/media/rayband.b74318366e818963ba8c.png",
+    "static/media/ruta66.png": "/visionsur/opticavision.git/static/media/ruta66.20a0e8f5ed727afe62ec.png",
+    "static/media/FACHADA.jpeg": "/visionsur/opticavision.git/static/media/FACHADA.22a6c44b101cb81409a3.jpeg",
+    "static/media/ERIKA COLOR MIX MARRON.png": "/visionsur/opticavision.git/static/media/ERIKA COLOR MIX MARRON.2e325baaf5c8eaeac21e.png",
+    "static/media/ROUND FLECK.png": "/visionsur/opticavision.git/static/media/ROUND FLECK.5591d995eb822311b082.png",
+    "static/media/mohs.jpg": "/visionsur/opticavision.git/static/media/mohs.6eba60385f07f5cc292c.jpg",
+    "static/media/julie bronce.png": "/visionsur/opticavision.git/static/media/julie bronce.63c4195ee9e8c7810603.png",
+    "static/media/JUSTIN CLASSIC NEGRO.png": "/visionsur/opticavision.git/static/media/JUSTIN CLASSIC NEGRO.a6e661265f673ea1ba89.png",
+    "static/media/marco_kodak.png": "/visionsur/opticavision.git/static/media/marco_kodak.03368b9f443267114263.png",
+    "static/media/NEW WAYFARER.png": "/visionsur/opticavision.git/static/media/NEW WAYFARER.e553c8e579dd83a2fac1.png",
+    "static/media/julie negro.png": "/visionsur/opticavision.git/static/media/julie negro.6782603e7e328ecc2edb.png",
+    "static/media/ERIKA COLOR MIX NEGRO.png": "/visionsur/opticavision.git/static/media/ERIKA COLOR MIX NEGRO.be1f6156425d63d91b27.png",
+    "static/media/RB3183 negros.png": "/visionsur/opticavision.git/static/media/RB3183 negros.528b9bca0524b4f18bc3.png",
+    "static/media/logooptica.png": "/visionsur/opticavision.git/static/media/logooptica.bcfe82fa8354aabb7c47.png",
+    "static/media/RB3183 gris.png": "/visionsur/opticavision.git/static/media/RB3183 gris.73b95a4d0d2ea33b07d9.png",
+    "static/media/ADENTRO.jpeg": "/visionsur/opticavision.git/static/media/ADENTRO.9fc42c7c80565de20db4.jpeg",
+    "static/media/ozono.png": "/visionsur/opticavision.git/static/media/ozono.ac4fd2202d2b543b300c.png",
+    "static/media/fondo_lentescontacto.jpg": "/visionsur/opticavision.git/static/media/fondo_lentescontacto.3e5f46cda4d65e70279f.jpg",
+    "static/media/AVIATOR MIRROR DORADO.png": "/visionsur/opticavision.git/static/media/AVIATOR MIRROR DORADO.3906cd88a468aa6b08dd.png",
+    "static/media/raybandlogo.png": "/visionsur/opticavision.git/static/media/raybandlogo.b5e791d34b14bf176d6f.png",
+    "static/media/ADENTROCOPIA.jpeg": "/visionsur/opticavision.git/static/media/ADENTROCOPIA.0a06e2a52edb10df99c7.jpeg",
+    "index.html": "/visionsur/opticavision.git/index.html",
+    "main.4fe9a03e.css.map": "/visionsur/opticavision.git/static/css/main.4fe9a03e.css.map",
+    "main.cdd06114.js.map": "/visionsur/opticavision.git/static/js/main.cdd06114.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fe9a03e.css",
+    "static/js/main.cdd06114.js"
+  ]
+}
