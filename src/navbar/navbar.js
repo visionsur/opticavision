@@ -10,7 +10,7 @@ function NavBar() {
     <Navbar expand="lg">
       <Container>
         <Navbar.Brand >
-          <NavLink to="/">
+          <NavLink to="/opticavision">
             <img class="icono" src={icono} />
           </NavLink>
         </Navbar.Brand>
