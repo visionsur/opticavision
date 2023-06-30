@@ -11,7 +11,7 @@ import Inicio from './inicio/inicio'
 
 const EnrutadorDeApp = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/opticavision'>
         <NavBar />
         <Routes>
         <Route path="/opticavision" element={<Inicio />} exact={true} />
