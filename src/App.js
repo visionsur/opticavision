@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, BrowserRouter, Routes, Router } from 'react-router-dom';
+import { Route, BrowserRouter, Routes, Navigate } from 'react-router-dom';
 import LentesSol from './lentesSol/variedad';
 import Rayband from './lentesSol/rayband';
 import NavBar from './navbar/navbar.js';
@@ -9,7 +9,10 @@ import Inicio from './inicio/inicio'
 
 
 
+
 const EnrutadorDeApp = () => {
+ 
+
   return (
     <BrowserRouter basename='/opticavision'>
         <NavBar />
@@ -18,6 +21,7 @@ const EnrutadorDeApp = () => {
         <Route path="/lentesSol" element={<LentesSol />} />
         <Route path="/rayband" element={<Rayband />} />
         <Route path="/graduacion" element={<Graduacion />} />
+        <Route path="/*" element={<Navigate to="/opticavision" />} />
       </Routes>
     </BrowserRouter>
   );
