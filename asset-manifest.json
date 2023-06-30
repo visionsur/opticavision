@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/visionsur/opticavision.git/static/css/main.4fe9a03e.css",
-    "main.js": "/visionsur/opticavision.git/static/js/main.cdd06114.js",
+    "main.js": "/visionsur/opticavision.git/static/js/main.53e1f2bc.js",
     "static/media/LENTES_DE_CONTACTO.png": "/visionsur/opticavision.git/static/media/LENTES_DE_CONTACTO.1fe8ff8db2e4b39bb370.png",
     "static/media/rayband.png": "/visionsur/opticavision.git/static/media/rayband.b74318366e818963ba8c.png",
     "static/media/ruta66.png": "/visionsur/opticavision.git/static/media/ruta66.20a0e8f5ed727afe62ec.png",
@@ -26,10 +26,10 @@
     "static/media/ADENTROCOPIA.jpeg": "/visionsur/opticavision.git/static/media/ADENTROCOPIA.0a06e2a52edb10df99c7.jpeg",
     "index.html": "/visionsur/opticavision.git/index.html",
     "main.4fe9a03e.css.map": "/visionsur/opticavision.git/static/css/main.4fe9a03e.css.map",
-    "main.cdd06114.js.map": "/visionsur/opticavision.git/static/js/main.cdd06114.js.map"
+    "main.53e1f2bc.js.map": "/visionsur/opticavision.git/static/js/main.53e1f2bc.js.map"
   },
   "entrypoints": [
     "static/css/main.4fe9a03e.css",
-    "static/js/main.cdd06114.js"
+    "static/js/main.53e1f2bc.js"
   ]
 }
