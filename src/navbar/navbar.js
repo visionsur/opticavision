@@ -21,7 +21,7 @@ function NavBar() {
               <NavLink class="link-negro" to="/lentesSol"><b>LENTES SOL</b></NavLink>
             </Nav.Link>
             <Nav.Link>
-              <NavLink to="/Graduacion"><b>LENTES AUMENTO</b></NavLink>
+              <NavLink to="/graduacion"><b>LENTES AUMENTO</b></NavLink>
             </Nav.Link>
             <Nav.Link >
               <NavLink to="/nosotros"><b>ACCESORIOS</b></NavLink>
