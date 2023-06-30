@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/opticavision/static/css/main.6e0f77b5.css",
-    "main.js": "/opticavision/static/js/main.db577b41.js",
+    "main.js": "/opticavision/static/js/main.17dc3fcc.js",
     "static/media/LENTES_DE_CONTACTO.png": "/opticavision/static/media/LENTES_DE_CONTACTO.1fe8ff8db2e4b39bb370.png",
     "static/media/rayband.png": "/opticavision/static/media/rayband.b74318366e818963ba8c.png",
     "static/media/ruta66.png": "/opticavision/static/media/ruta66.20a0e8f5ed727afe62ec.png",
@@ -26,10 +26,10 @@
     "static/media/ADENTROCOPIA.jpeg": "/opticavision/static/media/ADENTROCOPIA.0a06e2a52edb10df99c7.jpeg",
     "index.html": "/opticavision/index.html",
     "main.6e0f77b5.css.map": "/opticavision/static/css/main.6e0f77b5.css.map",
-    "main.db577b41.js.map": "/opticavision/static/js/main.db577b41.js.map"
+    "main.17dc3fcc.js.map": "/opticavision/static/js/main.17dc3fcc.js.map"
   },
   "entrypoints": [
     "static/css/main.6e0f77b5.css",
-    "static/js/main.db577b41.js"
+    "static/js/main.17dc3fcc.js"
   ]
 }
