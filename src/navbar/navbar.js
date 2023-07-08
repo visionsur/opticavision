@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from 'react-router-dom';
 import icono from '../imagenes/LOGO/logooptica.png'
+import Button from 'react-bootstrap/Button';
 
 
 function NavBar() {
@@ -18,13 +19,27 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link>
-              <NavLink class="link-negro" to="/lentesSol"><b>LENTES SOL</b></NavLink>
+              <Button variant="dark">
+                <NavLink class="link-negro" to="/lentesSol"><b>LENTES SOL</b></NavLink>
+              </Button>
+
             </Nav.Link>
             <Nav.Link>
-              <NavLink to="/graduacion"><b>LENTES AUMENTO</b></NavLink>
+              <Button variant="dark">
+                <NavLink to="/graduacion"><b>LENTES AUMENTO</b></NavLink>
+              </Button>
+
             </Nav.Link>
             <Nav.Link >
-              <NavLink to="/nosotros"><b>ACCESORIOS</b></NavLink>
+              <Button variant="dark">
+                <NavLink to="/nosotros"><b>ACCESORIOS</b></NavLink>
+              </Button>
+            </Nav.Link>
+            <Nav.Link >
+              <Button variant="dark">
+                <NavLink to="/nosotros"><b>NOSOTROS</b></NavLink>
+              </Button>
+
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

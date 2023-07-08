@@ -5,54 +5,49 @@ import Row from "react-bootstrap/Row";
 import Tab from "react-bootstrap/Tab";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
-import logoBebidas from '../imagenes/BEBIDAS/LOGOBEBIDAS.png'
-
-/*IMAGENES*/ 
-import cocacola350 from "../imagenes/BEBIDAS/COCACOLA350.jpg";
-import pepsi350 from "../imagenes/BEBIDAS/PEPSI350CC.jpg"
-import sevenup from '../imagenes/BEBIDAS/SEVEN350.jpg'
-import cocacola125 from "../imagenes/BEBIDAS/COCACOLA1.25.jpg";
-import pepsi125 from "../imagenes/BEBIDAS/pepsi-15-L.jpg";
-import seven125 from "../imagenes/BEBIDAS/GASEOSA1-25.jpg";
-import agua from "../imagenes/BEBIDAS/AGUAMINERAL500CC.jpg";
-import aguaGas from "../imagenes/BEBIDAS/AGUAMINERALGAS500CC.jpg";
-import aguaSav from "../imagenes/BEBIDAS/AGUASABORIZADA1,5.png";
-import aguaSav500 from "../imagenes/BEBIDAS/AGUASABORIZADA500CC.jpg";
-import heineken from "../imagenes/BEBIDAS/HEINEKENLATA473CC.jpg";
-import isenbeck from "../imagenes/BEBIDAS/ISENBECKLATA473CC.jpg";
 
 
+/*IMAGENES*/
+import logo from '../imagenes/TIPO_DE_LENTES/MOHS/logo dentro.png'
+import fivehundred from '../imagenes/TIPO_DE_LENTES/MOHS/five_hundred_.png'
+import mitt from '../imagenes/TIPO_DE_LENTES/MOHS/mitt_c1.png'
+import bigone from '../imagenes/TIPO_DE_LENTES/MOHS/bigone.png'
+import california from '../imagenes/TIPO_DE_LENTES/MOHS/bigone.png'
+import twohundred from '../imagenes/TIPO_DE_LENTES/MOHS/twohundred.png'
+import muster from '../imagenes/TIPO_DE_LENTES/MOHS/s_muster.png'
+import beauty from '../imagenes/TIPO_DE_LENTES/MOHS/s_beauty.png'
 
-const Bebidas = () => {
+
+const Mohs = () => {
   return (
     <div>
       <div class="div-cafe">
-        <img class="img-cafe" src={logoBebidas} />
+        <img class="img-logo" src={logo} />
       </div>
       <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
         <Row bsPrefix="lista-cafe">
           <Col sm={4}>
             <ListGroup>
               <ListGroup.Item action href="#link1">
-                GASEOSAS 350cc
+                FIVE HUNDRED
               </ListGroup.Item>
               <ListGroup.Item action href="#link2">
-                GASEOSAS 1,25 L
+                MITT
               </ListGroup.Item>
               <ListGroup.Item action href="#link3">
-                AGUA
+                BIGONE
               </ListGroup.Item>
               <ListGroup.Item action href="#link4">
-                AGUA SAVORIZADA 1.5 L
+                CALIFORNIA
               </ListGroup.Item>
               <ListGroup.Item action href="#link5">
-              AGUA SAVORIZADA 500 CC
+                TWO HUNDRED
               </ListGroup.Item>
               <ListGroup.Item action href="#link6">
-                HEINEKEN
+                MUSTER
               </ListGroup.Item>
               <ListGroup.Item action href="#link7">
-                ISENBECK
+                BEAUTY
               </ListGroup.Item>
             </ListGroup>
           </Col>
@@ -61,73 +56,32 @@ const Bebidas = () => {
               <Tab.Pane eventKey="#link1">
                 <CardGroup bsPrefix="cafeChicoYgrande">
                   <Card border="dark">
-                    <Card.Img variant="top" src={cocacola350} />
+                    <Card.Img variant="top" src={fivehundred} />
                     <Card.Body>
-                      <Card.Title>COCA COLA</Card.Title>
-                      <Card.Text>$450</Card.Text>
-                    </Card.Body>
-                  </Card>
-                  <Card border="dark">
-                    <Card.Img variant="top" src={sevenup} />
-                    <Card.Body>
-                      <Card.Title>SEVEN UP</Card.Title>
-                      <Card.Text>$450</Card.Text>
+                      <Card.Title>NEGROS</Card.Title>
+                      <Card.Text>Anteojos Sol Mohs Espejados Polarizados Uv400</Card.Text>
                     </Card.Body>
                   </Card>
                 </CardGroup>
-                <CardGroup bsPrefix="cafeChicoYgrande">
-                  <Card border="dark">
-                    <Card.Img variant="top" src={pepsi350} />
-                    <Card.Body>
-                      <Card.Title>PEPSI</Card.Title>
-                      <Card.Text>$450</Card.Text>
-                    </Card.Body>
-                  </Card>
-                </CardGroup>
-
               </Tab.Pane>
               <Tab.Pane eventKey="#link2">
                 <CardGroup bsPrefix="cafeChicoYgrande">
                   <Card border="dark">
-                    <Card.Img variant="top" src={cocacola125} />
+                    <Card.Img variant="top" src={mitt} />
                     <Card.Body>
-                      <Card.Title>COCA COLA</Card.Title>
-                      <Card.Text>$950</Card.Text>
-                    </Card.Body>
-                  </Card>
-                  <Card border="dark">
-                    <Card.Img variant="top" src={seven125} />
-                    <Card.Body>
-                      <Card.Title>SEVEN UP</Card.Title>
-                      <Card.Text>$950</Card.Text>
+                      <Card.Title>NEGROS</Card.Title>
+                      <Card.Text>Anteojos De Sol Polarized Tamaño Xl</Card.Text>
                     </Card.Body>
                   </Card>
                 </CardGroup>
-                <CardGroup bsPrefix="cafeChicoYgrande">
-                  <Card border="dark">
-                    <Card.Img variant="top" src={pepsi125} />
-                    <Card.Body>
-                      <Card.Title>PEPSI</Card.Title>
-                      <Card.Text>$950</Card.Text>
-                    </Card.Body>
-                  </Card>
-                </CardGroup>
-
               </Tab.Pane>
               <Tab.Pane eventKey="#link3">
                 <CardGroup bsPrefix="cafeChicoYgrande">
                   <Card>
-                    <Card.Img variant="top" src={agua} />
+                    <Card.Img variant="top" src={bigone} />
                     <Card.Body>
-                      <Card.Title>AGUA MINERAL</Card.Title>
-                      <Card.Text>$450</Card.Text>
-                    </Card.Body>
-                  </Card>
-                  <Card>
-                    <Card.Img variant="top" src={aguaGas} />
-                    <Card.Body>
-                      <Card.Title>AGUA MINERAL CON GAS</Card.Title>
-                      <Card.Text>$450</Card.Text>
+                      <Card.Title>MARRON</Card.Title>
+                      <Card.Text>Anteojos De Sol Polarized Marrón Tamaño Xl</Card.Text>
                     </Card.Body>
                   </Card>
                 </CardGroup>
@@ -135,10 +89,10 @@ const Bebidas = () => {
               <Tab.Pane eventKey="#link4">
                 <CardGroup bsPrefix="cafeChicoYgrande">
                   <Card >
-                    <Card.Img variant="top" src={aguaSav} />
+                    <Card.Img variant="top" src={california} />
                     <Card.Body>
-                      <Card.Title>AGUA SABORIZADA</Card.Title>
-                      <Card.Text>$950</Card.Text>
+                      <Card.Title>NEGROS</Card.Title>
+                      <Card.Text>Policarbonato Polarizado Uv400</Card.Text>
                     </Card.Body>
                   </Card>
                 </CardGroup>
@@ -146,10 +100,10 @@ const Bebidas = () => {
               <Tab.Pane eventKey="#link5">
                 <CardGroup bsPrefix="cafeChicoYgrande">
                   <Card>
-                    <Card.Img variant="top" src={aguaSav500} />
+                    <Card.Img variant="top" src={twohundred} />
                     <Card.Body>
-                      <Card.Title>AGUA SABORIZADA</Card.Title>
-                      <Card.Text>$450</Card.Text>
+                      <Card.Title>NEGROS</Card.Title>
+                      <Card.Text>Anteojos Polarizados Espejados Uv400</Card.Text>
                     </Card.Body>
                   </Card>
                 </CardGroup>
@@ -157,10 +111,10 @@ const Bebidas = () => {
               <Tab.Pane eventKey="#link6">
                 <CardGroup bsPrefix="cafeChicoYgrande">
                   <Card>
-                    <Card.Img variant="top" src={heineken} />
+                    <Card.Img variant="top" src={muster} />
                     <Card.Body>
-                      <Card.Title>HEINEKEN LATA 473 CC</Card.Title>
-                      <Card.Text>$950</Card.Text>
+                      <Card.Title>NEGROS</Card.Title>
+                      <Card.Text>Anteojos Sol Polarizados Uv400 Gtia</Card.Text>
                     </Card.Body>
                   </Card>
                 </CardGroup>
@@ -168,10 +122,10 @@ const Bebidas = () => {
               <Tab.Pane eventKey="#link7">
                 <CardGroup bsPrefix="cafeChicoYgrande">
                   <Card>
-                    <Card.Img variant="top" src={isenbeck} />
+                    <Card.Img variant="top" src={beauty} />
                     <Card.Body>
-                      <Card.Title>ISENBECK LATA 473 CC</Card.Title>
-                      <Card.Text>$700</Card.Text>
+                      <Card.Title>NEGROS</Card.Title>
+                      <Card.Text>Anteojos Sol Polarizados Uv400 Gtia</Card.Text>
                     </Card.Body>
                   </Card>
                 </CardGroup>
@@ -184,4 +138,4 @@ const Bebidas = () => {
   );
 };
 
-export default Bebidas;
+export default Mohs;

@@ -1,9 +1,11 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import rayband from '../imagenes/TIPO_DE_LENTES/rayband.png';
-import ozono from '../imagenes/TIPO_DE_LENTES/ozono.png';
-import ruta66 from '../imagenes/TIPO_DE_LENTES/ruta66.png'
-import mohs from '../imagenes/TIPO_DE_LENTES/mohs.jpg'
+import matt from '../imagenes/TIPO_DE_LENTES/MATT/logo afuera.png';
+import ozono from '../imagenes/TIPO_DE_LENTES/OZONO/LOGO.png';
+import ruta66 from '../imagenes/TIPO_DE_LENTES/RUTA66/LOGO.png'
+import mohs from '../imagenes/TIPO_DE_LENTES/MOHS/logo afuera.png'
+import kayak from '../imagenes/TIPO_DE_LENTES/KAYAK/LOGO.png'
+
 import { CardGroup } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
 import { useNavigate } from 'react-router-dom';
@@ -15,16 +17,16 @@ const Carta = () => {
         <CardGroup >
             <Row className="g-4">
                 <Card border='Dark' bsPrefix="card" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={rayband} />
+                    <Card.Img variant="top" src={matt} />
                     <Card.Body>
-                        <Card.Title>RAY-BAND</Card.Title>
+                        <Card.Title>MATT</Card.Title>
                         <Card.Text>
                             <b>
-                                EN ESTE SECTOR ENCONTRARAS UNA GRAN VARIEDAD DE LENTES RAY-BAND
+                                EN ESTE SECTOR ENCONTRARAS UNA GRAN VARIEDAD DE LENTES MATT
                             </b>
 
                         </Card.Text>
-                        <Button variant="primary" onClick={()=>navegacion('/rayband')}>
+                        <Button variant="primary" onClick={()=>navegacion('/matt')}>
                             VER
                         </Button>
                     </Card.Body>
@@ -67,13 +69,29 @@ const Carta = () => {
                             </b>
 
                         </Card.Text>
-                        <Button onClick={()=>navegacion('/dulce')}variant="primary" >
+                        <Button onClick={()=>navegacion('/mohs')}variant="primary" >
+                            VER
+                        </Button>
+                    </Card.Body>
+                </Card>
+                <Card style={{ width: '100%' }}>
+                    <Card.Img variant="top" src={kayak} />
+                    <Card.Body>
+                        <Card.Title>KAYAK</Card.Title>
+                        <Card.Text>
+                            <b>
+                                EN ESTE SECTOR ENCONTRAR UNA ENORME VARIEDAD DE LENTES KAYAK
+                            </b>
+
+                        </Card.Text>
+                        <Button onClick={()=>navegacion('/mohs')}variant="primary" >
                             VER
                         </Button>
                     </Card.Body>
                 </Card>
             </Row>
         </CardGroup>
+        
 
     )
 }

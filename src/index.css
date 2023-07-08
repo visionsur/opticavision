@@ -2,37 +2,68 @@
 .container{
     height: 100%;
 }
-.navbar{
-    background-color: rgb(252, 251, 251);
-    padding-left: 2vh;
-    border-bottom: #000 solid 3px;
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+  }
+.navbar__brand {
+  font-size: 20px;
 }
-.nav-link{
-    color: #fffffe !important;
-    justify-content: center;
-    white-space: nowrap;
+
+.navbar__items {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar__link {
+  margin-right: 2px;
+  color: #333;
+  text-decoration: none;
+}
+.img-logo{
+    right: 15%;
+}
+.img-logomatt{
+    right: 30%;
+    width: auto;
 }
 .me-auto{
-    margin-left: 50%;
+    margin-left: 20%;
 }
 .nav-link{
-    margin-left: 2%;
+    white-space: nowrap;
+    margin-right: -10px;
 }
 /*ESTILOS DE INICIO*/
 .icono{
+    margin-right: 30%;
     width: 40%;
     right: auto;
 }
-
+@media (min-width: 769px) {
+    .carousel-item img {
+      width: auto;
+      height: auto;
+    }
+    .me-auto{
+        margin-left: 2%;
+    }
+    
+  }
 
 /*ESTILOS NOSOTROS*/
 .div-nosotros{
-    background-image: url('./imagenes/NOSOTROS/ADENTRO.jpeg');
+    background-image: url('./imagenes/NOSOTROS/fondoValleGrande.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     display: flexbox;
     align-items: center;
-    font-size: 100%;
-    color: white;
+    font-size: 150%;
+    color: rgb(8, 8, 8);
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     padding: 2%;
@@ -40,16 +71,17 @@
 }
 @media only screen and (max-device-width: 600px) {
     .div-nosotros{
-        background-image: url('./imagenes/NOSOTROS/ADENTROCOPIA.jpeg');
+        background-image: url('./imagenes/NOSOTROS/fondoValleGrande.jpg');
         font-size: 150%;
         background-repeat: repeat;
     }
     
 }
+
 .logoNuevo{
     display: block;
     margin: auto;
-    width: 30%;
+    width: 20%;
     right: auto;
     align-items: center;
 }
@@ -76,6 +108,7 @@
     direction: initial;
     padding: 2%;
 }
+
 
 .card{
     margin: 10vh;
@@ -114,7 +147,7 @@
 /*ESTILOS CAFE*/
 .div-cafe{
     background-image: url('./imagenes/TIPO_DE_LENTES/fondo_lentescontacto.jpg');
-    right: 20%;
+    right: 10%;
     width: 100%;
     display: flex;
     justify-content: center;
