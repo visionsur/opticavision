@@ -45,7 +45,7 @@ function NavBar() {
 
             </Nav.Link>
             <Nav.Link bsPrefix='boton-redes'>
-              <Button bsPrefix='logowhat' onClick={() => window.location.href = 'https://wa.me/2625500165'} variant='none'>
+              <Button bsPrefix='logowhat' onClick={() => window.location.href = 'https://wa.me/2604053883'} variant='none'>
                 <Link to="https://wa.me/2604053883" target="_blank" rel="noopener noreferrer">
                   <img className='imagenwhat' src={whatsapp}></img>
                 </Link>
