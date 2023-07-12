@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/opticavision/static/css/main.711b956d.css",
-    "main.js": "/opticavision/static/js/main.41312186.js",
+    "main.js": "/opticavision/static/js/main.45b91c1a.js",
     "static/media/sujetadoriman.png": "/opticavision/static/media/sujetadoriman.6c789774b9c1f692d693.png",
     "static/media/Matt - 165.png": "/opticavision/static/media/Matt - 165.05cd230cf98228463e47.png",
     "static/media/Matt - 1001.png": "/opticavision/static/media/Matt - 1001.1b30c6cde4e9a3d0451d.png",
@@ -72,10 +72,10 @@
     "static/media/marco5.webp": "/opticavision/static/media/marco5.2a4664bb6d66f71a2fd5.webp",
     "index.html": "/opticavision/index.html",
     "main.711b956d.css.map": "/opticavision/static/css/main.711b956d.css.map",
-    "main.41312186.js.map": "/opticavision/static/js/main.41312186.js.map"
+    "main.45b91c1a.js.map": "/opticavision/static/js/main.45b91c1a.js.map"
   },
   "entrypoints": [
     "static/css/main.711b956d.css",
-    "static/js/main.41312186.js"
+    "static/js/main.45b91c1a.js"
   ]
 }
