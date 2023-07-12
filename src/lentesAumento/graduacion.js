@@ -1,51 +1,68 @@
-import Button from 'react-bootstrap/Button';
+
 import Card from 'react-bootstrap/Card';
-import kodak from '../imagenes/TIPO_DE_LENTES/marco_kodak.png';
-import lentes_contacto from '../imagenes/TIPO_DE_LENTES/LENTES_DE_CONTACTO.png';
-import { CardGroup } from 'react-bootstrap';
+
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
-import { useNavigate } from 'react-router-dom';
+import marco1 from '../imagenes/TIPO_DE_LENTES/marcos/marco1.png';
+import marco2 from '../imagenes/TIPO_DE_LENTES/marcos/marco2.png';
+import marco3 from '../imagenes/TIPO_DE_LENTES/marcos/marcos3.jpg';
+import marco4 from '../imagenes/TIPO_DE_LENTES/marcos/marco4.jpg';
+import marco5 from '../imagenes/TIPO_DE_LENTES/marcos/marco5.webp';
+import { CardGroup } from 'react-bootstrap';
 
-const Carta = () => {
 
-    const navegacion=useNavigate();
+function ShapeExample() {
+    
     return (
-        <CardGroup >
-            <Row className="g-4">
-                <Card border='Dark' bsPrefix="card" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={kodak} />
+        <div >
+            <div className='cartas'>
+            <Card>
+                    <Card.Img variant="top" src={marco1} />
                     <Card.Body>
-                        <Card.Title>LENTES DE MARCOS</Card.Title>
                         <Card.Text>
-                            <b>
-                                EN ESTE SECTOR ENCONTRARAS UNA GRAN VARIEDAD DE MARCOS PARA LENTES DE GRADUACIÓN
-                            </b>
-
+                            ANTEOJO DACIL ATENAS
                         </Card.Text>
-                        <Button variant="primary" onClick={()=>navegacion('/rayband')}>
-                            VER
-                        </Button>
                     </Card.Body>
                 </Card>
-                <Card border='Dark' bsPrefix="card" style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={lentes_contacto} />
+                <br />
+                <Card>
+                    <Card.Img variant="bottom" src={marco2} />
                     <Card.Body>
-                        <Card.Title>LENTES DE CONTACTO</Card.Title>
                         <Card.Text>
-                            <b>
-                                EN ESTE SECTOR ENCONTRARAS UNA GRAN VARIEDAD DE LENTES DE CONTACTO
-                            </b>
-
+                            ARMAZON OZONO Oz-5010
                         </Card.Text>
-                        <Button variant="primary" onClick={()=>navegacion('/rayband')}>
-                            VER
-                        </Button>
+                    </Card.Body>
+
+                </Card>
+            </div>
+            <div className='cartas'>
+            <Card>
+                    <Card.Img variant="top" src={marco3} />
+                    <Card.Body>
+                        <Card.Text>
+                            MOSCU
+                        </Card.Text>
                     </Card.Body>
                 </Card>
+                <br />
+                <Card>
+                    <Card.Img variant="bottom" src={marco4} />
+                    <Card.Body>
+                        <Card.Text>
+                            NOAH
+                        </Card.Text>
+                    </Card.Body>
+
+                </Card>
+            </div>
                 
-            </Row>
-        </CardGroup>
+                
+        </div>
 
-    )
+
+    );
 }
-export default Carta;
+
+export default ShapeExample;

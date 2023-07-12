@@ -1,53 +1,52 @@
-
 import Col from "react-bootstrap/Col";
 import ListGroup from "react-bootstrap/ListGroup";
 import Row from "react-bootstrap/Row";
 import Tab from "react-bootstrap/Tab";
-import cafeChico from "../imagenes/CAFE/CAFE-CHICO.jpg";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
-import cafeGrande from "../imagenes/CAFE/CAFE-GRANDE.jpg";
-import cortadoGrande from "../imagenes/CAFE/CORTADO-GRANDE.jpg";
-import cortadoChico from "../imagenes/CAFE/CORTADO-CHICO.jpg";
-import lagrimaChico from "../imagenes/CAFE/LAGRIMA-CHICO.jpg";
-import lagrimaGrande from "../imagenes/CAFE/LAGRIMA-GRANDE.jpg";
-import Mocaccino from "../imagenes/CAFE/MOCACCINO.jpg";
-import Capuccino from "../imagenes/CAFE/CAPUCCINO.jpeg";
-import Submarino from "../imagenes/CAFE/SUBMARINO.jpg";
-import Te from "../imagenes/CAFE/TE.jpg";
-import dulce from '../imagenes/DULCE/DULCE.png'
 
-const Dulce = () => {
+
+/*IMAGENES*/
+import logo from '../imagenes/TIPO_DE_LENTES/KAYAK/LOGO ADENTRO.png'
+import MOD_K853 from '../imagenes/TIPO_DE_LENTES/KAYAK/MOD.K853.png'
+import MOD_K853C1 from '../imagenes/TIPO_DE_LENTES/KAYAK/MOD.K853C1.png'
+import MOD_K_851C3 from '../imagenes/TIPO_DE_LENTES/KAYAK/MOD.K-851C3.png'
+import MOD_K8088C7 from '../imagenes/TIPO_DE_LENTES/KAYAK/MOD.K8088 C7.png'
+import MOD_K8088C1 from '../imagenes/TIPO_DE_LENTES/KAYAK/MOD. K 8088C1.png'
+import MOD_K943C1 from '../imagenes/TIPO_DE_LENTES/KAYAK/MOD K943 C1.png'
+import MOD_K937C2 from '../imagenes/TIPO_DE_LENTES/KAYAK/MOD K937 C2.png'
+
+
+const Kayak = () => {
   return (
     <div>
       <div class="div-cafe">
-        <img class="img-cafe" src={dulce} />
+        <img class="img-logo" src={logo} />
       </div>
       <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
         <Row bsPrefix="lista-cafe">
           <Col sm={4}>
             <ListGroup>
               <ListGroup.Item action href="#link1">
-                CAFE
+                MOD.K853 C3
               </ListGroup.Item>
               <ListGroup.Item action href="#link2">
-                CORTADO
+                MOD.K853 C1
               </ListGroup.Item>
               <ListGroup.Item action href="#link3">
-                LAGRIMA
+                MOD.K-851 C3
               </ListGroup.Item>
               <ListGroup.Item action href="#link4">
-                MOCACCINO
+                MOD. K8088 C7
               </ListGroup.Item>
               <ListGroup.Item action href="#link5">
-                CAPUCCINO
+                MOD. K 8088 C1
               </ListGroup.Item>
               <ListGroup.Item action href="#link6">
-                SUBMARINO
+                MOD K943 C1
               </ListGroup.Item>
               <ListGroup.Item action href="#link7">
-                TE
+                MOD K937 C2
               </ListGroup.Item>
             </ListGroup>
           </Col>
@@ -55,36 +54,22 @@ const Dulce = () => {
             <Tab.Content>
               <Tab.Pane eventKey="#link1">
                 <CardGroup bsPrefix="cafeChicoYgrande">
-                  <Card>
-                    <Card.Img variant="top" src={cafeChico} />
+                  <Card border="dark">
+                    <Card.Img variant="top" src={MOD_K853} />
                     <Card.Body>
-                      <Card.Title>CAFE CHICO</Card.Title>
-                      <Card.Text>$500</Card.Text>
-                    </Card.Body>
-                  </Card>
-                  <Card>
-                    <Card.Img variant="top" src={cafeGrande} />
-                    <Card.Body>
-                      <Card.Title>CAFE GRANDE</Card.Title>
-                      <Card.Text>$550</Card.Text>
+                      <Card.Title>NEGRO</Card.Title>
+                      <Card.Text>SIN GÉNERO</Card.Text>
                     </Card.Body>
                   </Card>
                 </CardGroup>
               </Tab.Pane>
               <Tab.Pane eventKey="#link2">
                 <CardGroup bsPrefix="cafeChicoYgrande">
-                  <Card>
-                    <Card.Img variant="top" src={cortadoChico} />
+                  <Card border="dark">
+                    <Card.Img variant="top" src={MOD_K853C1} />
                     <Card.Body>
-                      <Card.Title>CORTADO CHICO</Card.Title>
-                      <Card.Text>$500</Card.Text>
-                    </Card.Body>
-                  </Card>
-                  <Card>
-                    <Card.Img variant="top" src={cortadoGrande} />
-                    <Card.Body>
-                      <Card.Title>CORTADO GRANDE</Card.Title>
-                      <Card.Text>$550</Card.Text>
+                      <Card.Title>DORADO</Card.Title>
+                      <Card.Text>SIN GÉNERO</Card.Text>
                     </Card.Body>
                   </Card>
                 </CardGroup>
@@ -92,28 +77,21 @@ const Dulce = () => {
               <Tab.Pane eventKey="#link3">
                 <CardGroup bsPrefix="cafeChicoYgrande">
                   <Card>
-                    <Card.Img variant="top" src={lagrimaChico} />
+                    <Card.Img variant="top" src={MOD_K_851C3} />
                     <Card.Body>
-                      <Card.Title>LAGRIMA CHICO</Card.Title>
-                      <Card.Text>$500</Card.Text>
-                    </Card.Body>
-                  </Card>
-                  <Card>
-                    <Card.Img variant="top" src={lagrimaGrande} />
-                    <Card.Body>
-                      <Card.Title>LAGRIMA GRANDE</Card.Title>
-                      <Card.Text>$550</Card.Text>
+                      <Card.Title>DORADO</Card.Title>
+                      <Card.Text>SIN GÉNERO</Card.Text>
                     </Card.Body>
                   </Card>
                 </CardGroup>
               </Tab.Pane>
               <Tab.Pane eventKey="#link4">
                 <CardGroup bsPrefix="cafeChicoYgrande">
-                  <Card>
-                    <Card.Img variant="top" src={Mocaccino} />
+                  <Card >
+                    <Card.Img variant="top" src={MOD_K8088C7} />
                     <Card.Body>
-                      <Card.Title>MOCACCINO</Card.Title>
-                      <Card.Text>$850</Card.Text>
+                      <Card.Title>TRASLUCIDO</Card.Title>
+                      <Card.Text>SIN GÉNERO</Card.Text>
                     </Card.Body>
                   </Card>
                 </CardGroup>
@@ -121,10 +99,10 @@ const Dulce = () => {
               <Tab.Pane eventKey="#link5">
                 <CardGroup bsPrefix="cafeChicoYgrande">
                   <Card>
-                    <Card.Img variant="top" src={Capuccino} />
+                    <Card.Img variant="top" src={MOD_K8088C1} />
                     <Card.Body>
-                      <Card.Title>CAPUCCINO</Card.Title>
-                      <Card.Text>$750</Card.Text>
+                      <Card.Title>NEGROS</Card.Title>
+                      <Card.Text>SIN GÉNERO</Card.Text>
                     </Card.Body>
                   </Card>
                 </CardGroup>
@@ -132,10 +110,10 @@ const Dulce = () => {
               <Tab.Pane eventKey="#link6">
                 <CardGroup bsPrefix="cafeChicoYgrande">
                   <Card>
-                    <Card.Img variant="top" src={Submarino} />
+                    <Card.Img variant="top" src={MOD_K943C1} />
                     <Card.Body>
-                      <Card.Title>SUBMARINO</Card.Title>
-                      <Card.Text>$850</Card.Text>
+                      <Card.Title>DORADO</Card.Title>
+                      <Card.Text>SIN GÉNERO</Card.Text>
                     </Card.Body>
                   </Card>
                 </CardGroup>
@@ -143,10 +121,10 @@ const Dulce = () => {
               <Tab.Pane eventKey="#link7">
                 <CardGroup bsPrefix="cafeChicoYgrande">
                   <Card>
-                    <Card.Img variant="top" src={Te} />
+                    <Card.Img variant="top" src={MOD_K937C2} />
                     <Card.Body>
-                      <Card.Title>TE</Card.Title>
-                      <Card.Text>$450</Card.Text>
+                      <Card.Title>DORADO</Card.Title>
+                      <Card.Text>SIN GÉNERO</Card.Text>
                     </Card.Body>
                   </Card>
                 </CardGroup>
@@ -159,4 +137,4 @@ const Dulce = () => {
   );
 };
 
-export default Dulce;
+export default Kayak;

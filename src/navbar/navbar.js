@@ -4,6 +4,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from 'react-router-dom';
 import icono from '../imagenes/LOGO/logooptica.png'
 import Button from 'react-bootstrap/Button';
+import whatsapp from '../imagenes/LOGO/whatsapp.png'
+import { Link } from 'react-router-dom';
+import instagram from '../imagenes/LOGO/instagram.png'
 
 
 function NavBar() {
@@ -32,7 +35,7 @@ function NavBar() {
             </Nav.Link>
             <Nav.Link >
               <Button variant="dark">
-                <NavLink to="/nosotros"><b>ACCESORIOS</b></NavLink>
+                <NavLink to="/accesorios"><b>ACCESORIOS</b></NavLink>
               </Button>
             </Nav.Link>
             <Nav.Link >
@@ -40,6 +43,21 @@ function NavBar() {
                 <NavLink to="/nosotros"><b>NOSOTROS</b></NavLink>
               </Button>
 
+            </Nav.Link>
+            <Nav.Link bsPrefix='boton-redes'>
+              <Button bsPrefix='logowhat' onClick={() => window.location.href = 'https://wa.me/2625500165'} variant='none'>
+                <Link to="https://wa.me/2604053883" target="_blank" rel="noopener noreferrer">
+                  <img className='imagenwhat' src={whatsapp}></img>
+                </Link>
+              </Button>
+
+            </Nav.Link>
+            <Nav.Link bsPrefix='boton-redes'>
+              <Button bsPrefix='logowhat' onClick={() => window.location.href = 'https://www.instagram.com/visionsuroptica23/'} variant="none">
+                <Link to="https://www.instagram.com/visionsuroptica23/">
+                  <img className='imagenwhat' src={instagram}></img>
+                </Link>
+              </Button>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

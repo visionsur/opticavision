@@ -9,6 +9,11 @@ import Nosotros from './nosotros/nosotros';
 import Mohs from './lentesSol/mohs'
 import Ruta66 from './lentesSol/ruta66'
 import Ozono from './lentesSol/ozono'
+import Kayak from './lentesSol/kayak';
+import Zero from './lentesSol/zero';
+import Marco from './lentesAumento/marcos';
+import Accesorios from './accesorios/accesorios';
+import Legacy from './lentesSol/legacy'
 
 
 
@@ -26,7 +31,12 @@ const EnrutadorDeApp = () => {
         <Route path="/ozono" element={<Ozono />} />
         <Route path="/lentesSol" element={<LentesSol />} />
         <Route path="/matt" element={<Matt />} />
+        <Route path="/kayak" element={<Kayak />} />
+        <Route path="/zero" element={<Zero />} />
+        <Route path="/marco" element={<Marco />} />
+        <Route path="/accesorios" element={<Accesorios/> } />
         <Route path="/graduacion" element={<Graduacion />} />
+        <Route path="/legacy" element={<Legacy />} />
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/*" element={<Navigate to="/opticavision" />} />
       </Routes>
