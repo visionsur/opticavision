@@ -14,6 +14,7 @@ import Zero from './lentesSol/zero';
 import Marco from './lentesAumento/marcos';
 import Accesorios from './accesorios/accesorios';
 import Legacy from './lentesSol/legacy'
+import NotFound from './notFound/notFound';
 
 
 
@@ -39,6 +40,7 @@ const EnrutadorDeApp = () => {
         <Route path="/legacy" element={<Legacy />} />
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/" element={<Navigate to="/opticavision" />} />
+        <Route component={NotFound} />
       </Routes>
     </BrowserRouter>
   );
