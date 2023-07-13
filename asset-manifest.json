@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/opticavision/static/css/main.711b956d.css",
-    "main.js": "/opticavision/static/js/main.45b91c1a.js",
+    "main.css": "/opticavision/static/css/main.c7720faf.css",
+    "main.js": "/opticavision/static/js/main.3fad66a0.js",
     "static/media/sujetadoriman.png": "/opticavision/static/media/sujetadoriman.6c789774b9c1f692d693.png",
     "static/media/Matt - 165.png": "/opticavision/static/media/Matt - 165.05cd230cf98228463e47.png",
     "static/media/Matt - 1001.png": "/opticavision/static/media/Matt - 1001.1b30c6cde4e9a3d0451d.png",
@@ -13,7 +13,7 @@
     "static/media/marcos3.jpg": "/opticavision/static/media/marcos3.461b8011298d5e8fc07c.jpg",
     "static/media/sujetador.png": "/opticavision/static/media/sujetador.bb0812ecb416977ebef0.png",
     "static/media/marco1.png": "/opticavision/static/media/marco1.2a2b1bfc62f8a20a48f9.png",
-    "static/media/LENTES2.jpg": "/opticavision/static/media/LENTES2.c1053f09690ef1448140.jpg",
+    "static/media/LENTES2.jpg": "/opticavision/static/media/LENTES2.432f20d5c3c80ee864f6.jpg",
     "static/media/marco2.png": "/opticavision/static/media/marco2.7ac9cfa12e7417d3f784.png",
     "static/media/logo afuera.png": "/opticavision/static/media/logo afuera.3604714cb42e7ed405cb.png",
     "static/media/instagram.png": "/opticavision/static/media/instagram.cf7c7c668c7ff8585a93.png",
@@ -40,10 +40,11 @@
     "static/media/twohundred.png": "/opticavision/static/media/twohundred.14cf7ae367fa9111b509.png",
     "static/media/LG1830 col-3.png": "/opticavision/static/media/LG1830 col-3.2358572a6691bd981e7d.png",
     "static/media/SKU-00572.png": "/opticavision/static/media/SKU-00572.ebdb2a50730e78bcbae2.png",
+    "static/media/iconodireccion.png": "/opticavision/static/media/iconodireccion.8879e18cb2a4b5622663.png",
     "static/media/Matt - 1201.png": "/opticavision/static/media/Matt - 1201.e15a218413badae8c324.png",
     "static/media/SP61C4.png": "/opticavision/static/media/SP61C4.0d3fb020c50a5bcb0935.png",
+    "static/media/LENTES2_CEL.jpg": "/opticavision/static/media/LENTES2_CEL.db85d13dba30d42485a3.jpg",
     "static/media/five_hundred_.png": "/opticavision/static/media/five_hundred_.130261b5c86f195b9d51.png",
-    "static/media/LENTES2_CEL.jpg": "/opticavision/static/media/LENTES2_CEL.b40c9a20b42e60f2f189.jpg",
     "static/media/SP62C3.png": "/opticavision/static/media/SP62C3.9ce6e470a08b0b282a05.png",
     "static/media/LG1833 col.2.png": "/opticavision/static/media/LG1833 col.2.4afd445fa29baf143b9a.png",
     "static/media/LG1833.png": "/opticavision/static/media/LG1833.384866f93173fc88c5b4.png",
@@ -71,11 +72,11 @@
     "static/media/LOGO AFUERA.png": "/opticavision/static/media/LOGO AFUERA.7b933e50ffb03cde218f.png",
     "static/media/marco5.webp": "/opticavision/static/media/marco5.2a4664bb6d66f71a2fd5.webp",
     "index.html": "/opticavision/index.html",
-    "main.711b956d.css.map": "/opticavision/static/css/main.711b956d.css.map",
-    "main.45b91c1a.js.map": "/opticavision/static/js/main.45b91c1a.js.map"
+    "main.c7720faf.css.map": "/opticavision/static/css/main.c7720faf.css.map",
+    "main.3fad66a0.js.map": "/opticavision/static/js/main.3fad66a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.711b956d.css",
-    "static/js/main.45b91c1a.js"
+    "static/css/main.c7720faf.css",
+    "static/js/main.3fad66a0.js"
   ]
 }
