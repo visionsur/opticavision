@@ -47,23 +47,23 @@ function NavBar() {
             </Nav.Link>
             <div className='redes'>
               <Nav.Link bsPrefix='boton-redes'>
-                <Button bsPrefix='logowhat' onClick={() => window.location.href = 'https://wa.me/2604053883'} variant='none'>
-                  <Link to="https://wa.me/2604053883" target="_blank" rel="noopener noreferrer">
+                <Button bsPrefix='logowhat' onClick={() => window.location.href = 'wa.me/2604053883'} variant='none'>
+                  <Link to="wa.me/2604053883" target="_blank" rel="noopener noreferrer">
                     <img className='imagenwhat' src={whatsapp}></img>
                   </Link>
                 </Button>
 
               </Nav.Link>
               <Nav.Link bsPrefix='boton-redes'>
-                <Button bsPrefix='logowhat' onClick={() => window.location.href = 'https://www.instagram.com/visionsuroptica23/'} variant="none">
-                  <Link to="https://www.instagram.com/visionsuroptica23/">
+                <Button bsPrefix='logowhat' onClick={() => window.location.href = 'instagram.com/visionsuroptica23/'} variant="none">
+                  <Link to="instagram.com/visionsuroptica23/">
                     <img className='imagenwhat' src={instagram}></img>
                   </Link>
                 </Button>
               </Nav.Link>
               <Nav.Link bsPrefix='boton-redes'>
-                <Button bsPrefix='logowhat' onClick={() => window.location.href = 'https://www.facebook.com/profile.php?id=100093681363279'} variant="none">
-                  <Link to="https://www.facebook.com/profile.php?id=100093681363279">
+                <Button bsPrefix='logowhat' onClick={() => window.location.href = 'facebook.com/profile.php?id=100093681363279'} variant="none">
+                  <Link to="https://facebook.com/profile.php?id=100093681363279">
                     <img className='imagenwhat' src={facebook}></img>
                   </Link>
                 </Button>
