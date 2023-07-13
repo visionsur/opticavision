@@ -49,7 +49,8 @@
     justify-content: flex-start;
     background-color: transparent;
     color: transparent;
-    padding: 2%;
+    padding: 0%;
+    width: 50%;
 }
 
 .logowhat {
@@ -64,7 +65,14 @@
 .imagenwhat {
     width: 30%;
 }
-
+/*Carousel*/
+.botoncarousel{
+    background-color: white;
+    color: black;
+}
+.linkcarousel{
+    color: #000;
+}
 /*CARTAS*/
 
 .cartas {
@@ -235,7 +243,7 @@ MARCOS
         width: 40%;
     }
     .boton-redes{
-        padding-right: 70%;
+        padding-right: 50%;
     }
 }
 
