@@ -55,15 +55,15 @@ function NavBar() {
 
               </Nav.Link>
               <Nav.Link bsPrefix='boton-redes'>
-                <Button bsPrefix='logowhat' onClick={() => window.location.href = 'instagram.com/visionsuroptica23/'} variant="none">
-                  <Link to="instagram.com/visionsuroptica23/">
+                <Button bsPrefix='logowhat' onClick={() => window.location.href = 'www.instagram.com/visionsuroptica23/'} variant="none">
+                  <Link to="www.instagram.com/visionsuroptica23/">
                     <img className='imagenwhat' src={instagram}></img>
                   </Link>
                 </Button>
               </Nav.Link>
               <Nav.Link bsPrefix='boton-redes'>
                 <Button bsPrefix='logowhat' onClick={() => window.location.href = 'facebook.com/profile.php?id=100093681363279'} variant="none">
-                  <Link to="https://facebook.com/profile.php?id=100093681363279">
+                  <Link to="www.facebook.com/profile.php?id=100093681363279">
                     <img className='imagenwhat' src={facebook}></img>
                   </Link>
                 </Button>
