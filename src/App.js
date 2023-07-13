@@ -38,7 +38,7 @@ const EnrutadorDeApp = () => {
         <Route path="/graduacion" element={<Graduacion />} />
         <Route path="/legacy" element={<Legacy />} />
         <Route path="/nosotros" element={<Nosotros />} />
-        <Route path="/*" element={<Navigate to="/opticavision" />} />
+        <Route path="/" element={<Navigate to="/opticavision" />} />
       </Routes>
     </BrowserRouter>
   );
