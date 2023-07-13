@@ -14,6 +14,26 @@
 .navbar__brand {
     font-size: 20px;
 }
+.redes{
+    display: flex;
+    margin-top: 2vh;
+    margin-right: 2%;
+   
+}
+.logowhat {
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    width: 10vh;
+    flex: 1; /* Ocupar todo el ancho disponible */
+    margin-right: -1vh;
+    margin-left: 1vh;
+    padding: 0; /* Eliminar relleno */
+}
+.imagenwhat {
+    width: 5vh;
+}
+
 
 .navbar__items {
     display: flex;
@@ -44,27 +64,11 @@
     margin-right: -10px;
 }
 
-.boton-redes {
-    display: flex;
-    justify-content: flex-start;
-    background-color: transparent;
-    color: transparent;
-    padding: 0%;
-    width: 50%;
-}
 
-.logowhat {
-    width: auto;
-    margin-top: -1%;
-    margin-right: 5%;
-    border: transparent;
-    background-color: transparent;
 
-}
 
-.imagenwhat {
-    width: 30%;
-}
+
+
 /*Carousel*/
 .botoncarousel{
     background-color: white;
@@ -242,9 +246,19 @@ MARCOS
     .img-logomatt {
         width: 40%;
     }
-    .boton-redes{
-        padding-right: 50%;
+    .redes{
+        display: flex;
     }
+    .icono{
+        margin-right: -25vh;
+        height: 10vh;
+        width: auto;
+    }
+    .navbar{
+        background-color: #bfd9e7;
+    }
+    
+    
 }
 
 @media only screen and (min-width:700px) {

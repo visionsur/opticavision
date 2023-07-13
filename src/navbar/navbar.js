@@ -7,6 +7,7 @@ import Button from 'react-bootstrap/Button';
 import whatsapp from '../imagenes/LOGO/whatsapp.png'
 import { Link } from 'react-router-dom';
 import instagram from '../imagenes/LOGO/instagram.png'
+import facebook from '../imagenes/LOGO/facebook.ong.png'
 
 
 function NavBar() {
@@ -44,21 +45,31 @@ function NavBar() {
               </Button>
 
             </Nav.Link>
-            <Nav.Link bsPrefix='boton-redes'>
-              <Button bsPrefix='logowhat' onClick={() => window.location.href = 'https://wa.me/2604053883'} variant='none'>
-                <Link to="https://wa.me/2604053883" target="_blank" rel="noopener noreferrer">
-                  <img className='imagenwhat' src={whatsapp}></img>
-                </Link>
-              </Button>
+            <div className='redes'>
+              <Nav.Link bsPrefix='boton-redes'>
+                <Button bsPrefix='logowhat' onClick={() => window.location.href = 'https://wa.me/2604053883'} variant='none'>
+                  <Link to="https://wa.me/2604053883" target="_blank" rel="noopener noreferrer">
+                    <img className='imagenwhat' src={whatsapp}></img>
+                  </Link>
+                </Button>
 
-            </Nav.Link>
-            <Nav.Link bsPrefix='boton-redes'>
-              <Button bsPrefix='logowhat' onClick={() => window.location.href = 'https://www.instagram.com/visionsuroptica23/'} variant="none">
-                <Link to="https://www.instagram.com/visionsuroptica23/">
-                  <img className='imagenwhat' src={instagram}></img>
-                </Link>
-              </Button>
-            </Nav.Link>
+              </Nav.Link>
+              <Nav.Link bsPrefix='boton-redes'>
+                <Button bsPrefix='logowhat' onClick={() => window.location.href = 'https://www.instagram.com/visionsuroptica23/'} variant="none">
+                  <Link to="https://www.instagram.com/visionsuroptica23/">
+                    <img className='imagenwhat' src={instagram}></img>
+                  </Link>
+                </Button>
+              </Nav.Link>
+              <Nav.Link bsPrefix='boton-redes'>
+                <Button bsPrefix='logowhat' onClick={() => window.location.href = 'https://www.facebook.com/profile.php?id=100093681363279'} variant="none">
+                  <Link to="https://www.facebook.com/profile.php?id=100093681363279">
+                    <img className='imagenwhat' src={facebook}></img>
+                  </Link>
+                </Button>
+              </Nav.Link>
+            </div>
+
           </Nav>
         </Navbar.Collapse>
       </Container>
